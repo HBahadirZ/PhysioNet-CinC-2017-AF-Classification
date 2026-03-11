@@ -1,0 +1,44 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook and local tooling artifacts
+.ipynb_checkpoints/
+.python-version
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+
+# Data and training artifacts (large, reproducible locally)
+training2017/
+outputs/
+checkpoints/
+runs/
+wandb/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak

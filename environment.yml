@@ -1,0 +1,15 @@
+name: af-classification
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - pandas
+      - scikit-learn
+      - torch
+      - tqdm
+      - matplotlib
+      - seaborn
