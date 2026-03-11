@@ -82,10 +82,3 @@ These are development runs (CPU fallback on this machine), not final challenge s
 - Deterministic torch backend settings in `src/utils/repro.py`
 - Per-fold checkpoints and summaries under `outputs/...`
 
-## Notes for GitHub
-
-- Keep dataset and generated artifacts out of the repo (handled by `.gitignore`)
-- MIT license is included in `LICENSE`
-- Project roadmap is included in `ROADMAP.md`
-- Conda environment file is included in `environment.yml`
-"# PhysioNet-CinC-2017-AF-Classification" 
